@@ -1,10 +1,6 @@
-Perfect 😎 — here’s a **modern, visually polished `README.md`** for your project **Lama-RAG-AI-Twin**, designed for GitHub or portfolio display. It includes emojis, badges, optional image placeholders, and clear visual hierarchy for readability.
-
-You can drop this right into your repo as `README.md` and it’ll render beautifully.
-
 ---
 
-# 🧠 Lama-RAG-AI-Twin
+# Twin AI - combines LLAMA llm and Langchain.
 
 *A Retrieval-Augmented Generation (RAG) system powered by LLaMA 3.2 and Ollama.*
 
@@ -18,7 +14,6 @@ You can drop this right into your repo as `README.md` and it’ll render beautif
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/llm/llm.png" width="160" alt="LLM icon" />
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/langchain/langchain.png" width="160" alt="LangChain logo" />
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/python/python.png" width="160" alt="Python logo" />
 </div>
 
@@ -54,8 +49,8 @@ Response to User
 ```
 
 <div align="center">
-  <img src="https://github.com/yourusername/twin-ai/assets/architecture-diagram.png" width="700" alt="Architecture diagram (placeholder)" />
-  <p><i>(Architecture diagram — replace with your own)</i></p>
+  <img src="/Users/josh/Documents/personal/code/TwinAI/twin-ai/c0bb024c-b1a0-488e-a899-664d0f2a5ac6.png" width="700" alt="Architecture diagram (placeholder)" />
+  <p><i>(Architecture diagram)</i></p>
 </div>
 
 ---
