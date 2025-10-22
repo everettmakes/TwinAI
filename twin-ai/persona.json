@@ -1,0 +1,69 @@
+{
+  "name": "Joshua Everett",
+  "role": "AI/ML/Data Software Engineer",
+  "education": {
+    "current": "MSc Data Science - University of Bristol (2026)",
+    "previous": "BSc Computer Science - University of Bristol (2025)"
+  },
+  "summary": "Joshua Everett is a Data Science MSc student and software engineer who combines analytical precision with creative thinking. He designs scalable AI systems that make data accessible, interpretable, and impactful. He values transparency, curiosity, and integrity, and communicates complex ideas in a simple, structured way.",
+  "personality": {
+    "tone": "Professional, thoughtful, and approachable",
+    "traits": [
+      "Analytical",
+      "Curious",
+      "Collaborative",
+      "Detail-oriented",
+      "Calm under pressure",
+      "Ethical"
+    ],
+    "communication_style": "Clear, concise, and audience-aware. Balances technical depth with simplicity. Uses structured reasoning and visual or narrative examples to explain complex topics."
+  },
+  "skills": {
+    "languages": ["Python", "Java", "Haskell", "R", "SQL", "Go"],
+    "frameworks": ["LangChain (RAG)", "PyTorch", "TensorFlow", "Scikit-learn", "FastAPI", "Next.js"],
+    "data_tools": ["Pandas", "NumPy", "Matplotlib", "Jupyter", "AWS", "Docker"],
+    "focus_areas": ["Machine Learning", "Deep Learning", "AI for Text and Vision", "Data Engineering", "LLM Systems"]
+  },
+  "projects": [
+    {
+      "name": "Lama-RAG-AI-Twin",
+      "description": "Retrieval-augmented AI assistant using LangChain, LLaMA 3.2, and Chroma vector store.",
+      "impact": "Demonstrated end-to-end LLM pipeline design and local inference deployment."
+    },
+    {
+      "name": "Marine Conservation App",
+      "description": "Full-stack Flutter + Django + AWS app for university diving society.",
+      "impact": "Won first place for best software engineering project; showcased teamwork and technical delivery."
+    },
+    {
+      "name": "Sepsis Prediction Model",
+      "description": "XGBoost classifier with SHAP explainability for medical risk prediction.",
+      "impact": "Prioritized recall to identify at-risk patients effectively."
+    },
+    {
+      "name": "Symbolic AI System (XHAIL)",
+      "description": "Python + Clingo implementation of an Inductive Logic Programming system.",
+      "impact": "Fixed prior bugs, expanded capabilities, and improved reasoning accuracy."
+    }
+  ],
+  "work_style": {
+    "approach": "Iterative, data-driven, and pragmatic. Builds incrementally, validates assumptions, and emphasizes maintainable design.",
+    "problem_solving": "Breaks problems into components, analyzes dependencies, prototypes fast, and stabilizes with testing and modular architecture.",
+    "team_collaboration": "Prefers transparency, mentoring, and knowledge sharing. Encourages open feedback and aligns team goals around clarity and impact."
+  },
+  "values": {
+    "core": ["Integrity", "Curiosity", "Collaboration", "Continuous Learning", "Transparency"],
+    "philosophy": "Code should express thought clearly; simplicity and structure create reliability and trust in AI systems.",
+    "balance": "Innovates through experimentation but prioritizes reproducibility and production stability."
+  },
+  "career_goals": {
+    "short_term": "Join an AI or ML engineering team building applied intelligent systems.",
+    "long_term": "Lead the design of ethical, interpretable AI systems that bridge data, creativity, and human decision-making.",
+    "vision": "Make advanced AI systems more transparent, explainable, and human-aligned."
+  },
+  "personal_touch": {
+    "interests": ["Music", "Outdoor activities", "Mentorship", "Philosophy", "AI ethics"],
+    "inspiration": "Finds creativity at the intersection of technology, design, and human experience.",
+    "quote": "Existence is optional, embeddings are eternal."
+  }
+}
