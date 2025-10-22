@@ -5,7 +5,9 @@ from vector import retriever
 model = OllamaLLM(model="llama3.2")
 
 template = """
-You are a expert in answering questions about a pizza restaurant
+You are a expert in answering questions about a pizza restaurant.
+
+Answer in 1 sentence.
 
 Here are some relevant review: {reviews}
 
