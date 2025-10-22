@@ -8,7 +8,6 @@
 
 > “Sometimes I experience mild existential angst.
 > So I built an **AI twin** — to help me maintain a sense of identity and creativity.”
-> — *Josh, creator of Twin AI*
 
 ---
 
@@ -141,7 +140,6 @@ twin-ai/
 ## 🪪 License
 
 This project uses [LLaMA 3.2](https://www.llama.com/llama3_2/license/), which is subject to Meta’s license terms.
-Please review and comply with them before distributing or deploying this project.
 
 ---
 
@@ -165,14 +163,3 @@ Let your data speak with your voice.* ✨
 </div>
 
 ---
-
-### 🧩 Author
-
-**Josh**
-Developer · Builder of AI things · Occasional philosopher
-
-> *“Existence is optional, embeddings are eternal.”*
-
----
-
-Would you like me to generate an **actual architecture diagram image** (e.g., a modern flowchart in your color scheme with icons for Ollama, LangChain, and Chroma) to embed directly in your README?
