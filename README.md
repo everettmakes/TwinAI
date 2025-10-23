@@ -34,7 +34,7 @@
 ```
 User Query
    ↓
-RAG Pipeline (LangChain / LlamaIndex)
+RAG Pipeline (LangChain)
    ├─ Retriever → Vector Database (Chroma)
    │     └─ Embeddings of your curated documents
    └─ LLM → Generates responses using retrieved context + prompt
