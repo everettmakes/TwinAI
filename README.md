@@ -27,8 +27,6 @@
 * 💾 **Chroma vector store**
 * 📄 **Custom document embeddings**
 
-It allows your AI twin to **answer contextual questions** based on your own curated text data — in this example, realistic pizza restaurant reviews 🍕.
-
 ---
 
 ## 🧩 Architecture
@@ -36,11 +34,8 @@ It allows your AI twin to **answer contextual questions** based on your own cura
 ```
 User Query
    ↓
-Frontend Chat Interface
-   (Web app: Streamlit / Gradio)
-   ↓
 RAG Pipeline (LangChain / LlamaIndex)
-   ├─ Retriever → Vector Database (Chroma, Pinecone, or FAISS)
+   ├─ Retriever → Vector Database (Chroma)
    │     └─ Embeddings of your curated documents
    └─ LLM → Generates responses using retrieved context + prompt
    ↓
@@ -82,46 +77,10 @@ ollama pull mxbai-embed-large
 pip install -r ./requirements.txt
 ```
 
----
-
-### 💾 4. Prepare Your Data
-
-Include a CSV named **`realistic_restaurant_reviews.csv`** in the project directory with columns like:
-
-| Title          | Review                         | Rating | Date       |
-| -------------- | ------------------------------ | ------ | ---------- |
-| “Great pizza!” | “Loved the crust and service.” | 5      | 2024-06-12 |
-
----
-
 ### 🚀 5. Run the App
 
 ```bash
 python main.py
-```
-
-**Example session:**
-
-```
-=== 🍕 Pizza Review QA Assistant ===
-Ask your question: What do people say about the crust?
-
-🍕 Answer: Most customers love the crispy, wood-fired crust.
-```
-
----
-
-## 🧠 Code Structure
-
-```
-twin-ai/
-│
-├── main.py                  # Core RAG chat loop
-├── vector.py                # Embedding & retrieval pipeline
-├── realistic_restaurant_reviews.csv
-├── requirements.txt
-├── README.md
-└── venv/                    # Virtual environment (ignored by Git)
 ```
 
 ---
@@ -133,7 +92,6 @@ twin-ai/
 | **LangChain** | Orchestrates the RAG pipeline       |
 | **Ollama**    | Runs local LLaMA 3.2 and embeddings |
 | **Chroma**    | Persistent vector database          |
-| **Pandas**    | Parses and cleans the input dataset |
 
 ---
 
