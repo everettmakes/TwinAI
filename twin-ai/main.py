@@ -31,6 +31,6 @@ while True:
     if question == "q":
         break
 
-    reviews = retriever.invoke(question)
-    result = chain.invoke({"reviews": reviews, "question": question})
+    persona = retriever.invoke(question)
+    result = chain.invoke({"persona": persona, "question": question})
     print(result)
